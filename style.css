@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+#menu{
+	background-color:  #7c5c04;
+	padding: 15px;
+	text-align: center;
+}
+#menu ul li{
+	display: inline;
+	
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 0 15px;
+}
+#menu ul li a:hover{
+	color: yellow;
+}
+h1{
+	padding: 20px 0; 
+	text-align: center;
+
+}
+h2{
+	font-size: 17px;
+	padding: 15px;
+}
+#books{
+	text-align: center;
+	padding: 20px 20px;
+	margin: 20px 100px;
+}
+#books_img{
+	width: 50%;
+	float: left;
+}
+#books_img img{
+	width: 300px;
+	height: 360px;
+}
+#books_desc{
+	width: 50%;
+	float: left;
+}
+#btn{
+	background-color: #ad8105;
+	border: 1px solid #ad8105;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	color: white;
+}
+#overview p{
+	padding: 0 20px;
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 100px 20px;
+}
+#author_img{
+	width: 50%;
+	float: left;
+}
+#author_img img{
+	padding: 30px 75px;
+	width: 250px;
+	height: 240px;
+}
+#author_desc{
+	width: 50%;
+	float: left;
+
+}
+#author_desc p{
+	padding: 0 20px;
+	font-size: 16px;
+	text-align: left;
+	margin: 30px 90px 20px;
+}
+#contact_left {
+	width: 50%;
+	float: left;
+}
+#contact_left p{
+	text-align: right;
+	font-size: 18px;
+	padding: 15px 15px;
+}
+#contact_right{
+	width: 50%;
+	float: left;
+}
+#contact_right input,textarea{
+	width: 150px;
+	padding: 5px 30px;
+	margin: 10px;
+}
+#contact_right textarea{
+	height: 80px;
+}
+.form{
+	margin: 0 110px;
+}
+#footer{
+	background-color: #7c5c04;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+#footer strong{
+	color: #fbdb84;
+}
+
+

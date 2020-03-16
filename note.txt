@@ -1,0 +1,10 @@
+selector{property:value}
+h1{
+	color:red;
+}
+display:block;
+display:inline;
+position
+	static 
+	absolute
+	
