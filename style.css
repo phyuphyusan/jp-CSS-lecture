@@ -34,12 +34,13 @@ h2{
 }
 #books{
 	text-align: center;
-	padding: 20px 20px;
+	padding: 10px 20px;
 	margin: 20px 100px;
 }
 #books_img{
 	width: 50%;
 	float: left;
+	padding: 20px 0;
 }
 #books_img img{
 	width: 300px;
@@ -48,6 +49,7 @@ h2{
 #books_desc{
 	width: 50%;
 	float: left;
+	padding: 40px 0;
 }
 #btn{
 	background-color: #ad8105;
@@ -62,6 +64,7 @@ h2{
 	font-size: 16px;
 	text-align: center;
 	margin: 20px 100px 20px;
+	line-height: 1.5;
 }
 #author_img{
 	width: 50%;
@@ -82,6 +85,7 @@ h2{
 	font-size: 16px;
 	text-align: left;
 	margin: 30px 90px 20px;
+	line-height: 1.5;
 }
 #contact_left {
 	width: 50%;

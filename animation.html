@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<!-- Internal CSS -->
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: cyan;
+			/*animation-name: animate1;
+			animation-duration: 3s;/*default ka 0s*/
+			/*position: relative;original place ka move chin
+			animation-delay: 1s;begin time
+			animation-iteration-count: 3;
+			animation-direction: alternate-reverse;*/
+		}
+		/*div{
+			animation: animate1 4s 1s 3 alternate;
+		}*/
+		@keyframes animate1{/*name ka kyite tar pay*/
+			/*from*/ 0%{background-color: cyan;left: 0px;top: 0px;}
+					25%{background-color: yellow;left: 200px;top: 0px;}
+					50%{background-color: green;left: 200px;top: 200px;}
+					75%{background-color: brown;left: 0px;top:200px;}
+			/*to*/ 100%{background-color: blue;left: 0px;top: 0px;}
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="animated bounceInDown">
+	
+	</div>
+
+</body>
+</html>
